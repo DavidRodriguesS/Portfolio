@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifolio</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+     <!-- NavBar -->  
+    <Nav>
+        <a class="Inc">David</a>
+         <!-- Ilinks Ancora com CSS -->  
+        <div  id="fix"></div>
+            <ul class="int">
+                <li><a class="a1" href="#ResumoLi"> Resumo </a></li>
+                <li><a class="a1" href="#ExpLi"> Experiência </a></li>
+                <li><a class="a1" href="#ForLi"> Formação </a></li>
+                <li><a class="a1" href="#CurLi">Cursos Adicionais </a></li>
+            </ul>
+       </div>
+       <!-- Imagem com link -->  
+       <a href="https://www.linkedin.com" target="_blank">
+        <img id="imgg" src="img/linkedin.png" alt="Linkedin" width="20" height="20">
+    </a>
+    </Nav>
+
+ <!-- Inicio -->  
+<p class="titulo"> Olá,<br>  </p>
+<p class="titulo1"> meu nome é <span id="nome">David</span></p>
+<p class="titulo1">Seja Bem-Vindo ao meu portfólio </p>
+
+ <!-- Botão para levar no formulario -->  
+<button class="but" onclick="location.href='#FormLi'">
+    Contato
+</button>
+
+
+  <!-- Linha para separar topicos -->  
+<hr id="li1">
+ <!-- Resumo -->  
+<p id="ResumoLi" class="res"> Resumo </p>
+<div class="restam">
+<p class="res1"> Sou o David, tenho 20 anos e sou apaixonado por tecnologia. Atualmente,
+     estou cursando Engenharia de Software no ensino superior. Anteriormente, concluí um curso técnico em Informática,
+     que foi fundamental para minha escolha de carreira. </p>
+</div>
+ <!-- Experiencia -->  
+<p id="ExpLi" class="res"> Experiêcias Profissionais</p>
+<ul typle="circle">
+    <li Class="exp"> Aprendiz Administrativo BRF S.A. - 02/22 à 05/2023 </li>
+</ul>
+ <!-- RFormação -->  
+<p id="ForLi" class="res">Formação</p>
+<ul typle="circle">
+    <li Class="exp"> Ensino Médio - E.E. Rafael de Oliveira - Completo.</li>
+    <li Class="exp1"> Técnico em Informática  Senac Jundiaí - 04/21 a 11/22.</li>
+    <li Class="exp1"> Engenharia de Software - Uninter - 02/23 a 02/27</li>
+</ul>
+ <!-- Cursos -->  
+<p id="CurLi" class="res">Curso Adicionais</p>
+<ul typle="circle">
+    <li Class="exp"> SENAI - Competência Transversal - Tecnologia da Informação e Comunicação.</li>
+    <li Class="exp1"> SENAI - Competência Transversal - Lógica de Programação.</li>
+    <li Class="exp1"> SENAI - Competência Transversal - Excel Básico.</li>
+    <li Class="exp1"> UDEMY - Básico ao Avançado - Microsoft Excel.</li>
+    <li Class="exp1"> FUNDAÇÃO BRADESCO - Microsoft Word 2016 - Avançado.</li>
+</ul>
+
+<hr id="li2">
+ <!-- Formulario -->  
+<p id="FormLi" class="res">Formulario</p>
+<br>
+
+<form action="mailto:email@gmail.com" method="post" enctype="text/plain" class="form">
+    <p>Seu nome: <input type="text" name="nome"></p>
+    <p>E-mail: <input type="email" name="email"></p>
+    <p>Mensagem: <textarea name="msg"></textarea></p>
+    <br>
+    <input type="submit" value="Enviar"/>
+</body>
+</html>

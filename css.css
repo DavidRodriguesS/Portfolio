@@ -1,0 +1,152 @@
+/*Fontes usadas*/
+/*Font Inc*/
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Bevan:ital@0;1&family=Merriweather+Sans:ital,wght@0,800;1,800&display=swap');
+/*Links*/
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Bevan:ital@0;1&family=BioRhyme:wght@300&family=Climate+Crisis&family=Rubik+Mono+One&family=Slabo+27px&display=swap');
+/*Titulos*/
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Bevan:ital@0;1&family=Merriweather+Sans:ital,wght@0,749;1,749&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+/*Corpo*/
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{    
+    padding: 0;
+    box-sizing: 0;
+    margin: 0;
+}
+
+/*Inicio NavBar*/
+nav{
+    display: flex;
+    margin-top: 10px;
+}
+
+.Inc{
+    font-size: 25px;
+    font-family: "Merriweather Sans", sans-serif;
+    margin-left: 25px;
+    text-decoration: none;
+    color: black;
+}
+.int{
+    font-size: 1;
+    margin-top: 8px;
+    list-style: none;
+    display: flex;
+    margin-left: 400px;
+}
+.a1{
+    text-decoration: none;
+    color: black;
+}
+.a1:hover{
+    color:#808080;
+}
+
+.int>li{
+    padding-left: 20px;
+}
+
+hr{
+    margin-top: 3px;
+    border-width: 0.5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+/*Fim NavBar*/
+
+
+.titulo{
+    margin-top: 100px;
+    margin-left: 10%;
+    font-size: 50px;
+    font-family: "Roboto Condensed", sans-serif;
+}
+.titulo1{
+    margin-left: 10%;
+    font-size: 50px;
+    font-family: "Roboto Condensed", sans-serif;
+}
+#nome{
+    color: #4071F4;
+    font-family: "Roboto Condensed", sans-serif;
+}
+.but{
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 15px;
+    background-color:#4071F4;
+    color: white;
+    margin-left: 10%;
+    margin-top: 20px; 
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+}
+.but:hover{
+    background-color: black;
+}
+
+#li1{margin-top: 20%;}
+#li2{margin-top: 10%;}
+
+#in{
+     width: 10px;
+    height: 30px;
+}
+
+.res{
+    margin-top: 30px;
+    font-size: 50px;
+    margin-left: 10%;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.restam{
+    margin-left: 10%;
+    width: 600px;
+    height: 120px;
+}
+.res1{
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    margin-top: 20px;
+}
+
+.exp{
+    margin-top: 20px;
+    margin-left: 10%;
+    font-family: "Inter", sans-serif;
+}
+
+.exp1{
+    margin-left: 10%;
+    font-family: "Inter", sans-serif;
+}
+
+/*Formulario*/
+.form input[type="text"],
+    .form input[type="email"],
+    .form textarea {
+        margin-bottom: 8px;
+        padding: 5px;
+        border: 1px solid black;
+        border-radius: 6px;
+        vertical-align: middle;
+    }
+
+    .form input[type="submit"] {
+        padding: 8px 20px;
+        background-color: #4071F4;
+        color: white;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+        font-family: "Roboto Condensed", sans-serif;
+    }
+    .form input[type="submit"]:hover {
+        background-color: black;
+    }
+
+    /*imagem do linkedin*/
+#imgg{
+    padding-left: 340px;
+}
